@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Libro de Mensajes</title>
+  </head>
+  <body>
+
+    <div class="titulo" >
+      <h1>El gran libro de visitas</h1>
+    </div>
+
+    <div>
+      <h2>Crea un Artículo</h2>
+        <h4>
+          <ol>
+            <li>Cambia el tamaño, color y la alineación del texto.</li>
+            <li>Ponle algún fondo o imagen.</li>
+            <li>Crea una lista.</li>
+          </ol>
+        </h4>
+
+    <div>
+      <table class="botones" >
+        <tr>
+          <td> <input type="button" value="Texto Grande" id="textGrande" > </td>
+          <td> <input type="button" value="Texto Mediano" id="textMediano" > </td>
+          <td> <input type="button" value="Texto Chico" id="textChico" > </td>
+          <td> <input type="button" value="Color Texto" id="colorText" > </td>
+          <td> <input type="button" value="Color Fondo" id="colorBack" > </td>
+          <td> <input type="button" value="Texto Izquierda" id="alingIzq" > </td>
+          <td> <input type="button" value="Texto Centro" id="alignCenter" > </td>
+          <td> <input type="button" value="Texto Derecha" id="alignDer" > </td>
+        </tr>
+        <tr>
+          <td colspan="2" > <input type="button" value="Coloca un Fondo o Imagen" id="fondoImagen" > </td>
+          <td> <input type="button" value="Nueva Lista" id="crearLista" > </td>
+        </tr>
+        <tr>
+          <td colspan="8" ><textarea id="inputComentario" onkeyup="previsualizar()" rows="10" cols="140" placeholder="Escribe aquí..." ></textarea> </td>
+        </tr>
+        <tr>
+          <td colspan="100%" align="right" > <button id="botonAgregar" >Agregar</button> </td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <hr width="80%" align="left" />
+    </div>
+
+    <div>
+      <h3>Texto Previsualizado</h3>
+      <p id="textoPrevisualizado" > </p>
+    </div>
+
+    <div>
+      <hr width="80%" align="left" />
+    </div>
+
+    <div>
+      <h3>Artículos</h3>
+      <p  > </p>
+    </div>
+
+    <script src="assets/js/main.js" ></script>
+  </body>
+</html>
